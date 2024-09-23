@@ -1,7 +1,7 @@
 export class Hoge {
     private readonly name = 'Hoge';
 
-    public static sayHello() {
+    public sayHello() {
         console.log(this.name);
     }
 }
