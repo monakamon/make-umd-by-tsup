@@ -1,8 +1,4 @@
-import '../../libs/hoge/dist/index.js'
 
-const hoge = new Hoge();
-hoge.sayHello();
-console.log(hoge.name);
 
 export function setupCounter(element) {
   let counter = 0
