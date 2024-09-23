@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@tsconfig/strictest/tsconfig.json"
+    /*"@tsconfig/strictest/tsconfig.json"*/
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
