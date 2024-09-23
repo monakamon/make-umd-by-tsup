@@ -41,7 +41,7 @@ export default defineConfig(() => {
         dts: true,
         esbuildPlugins: [
             umdWrapper({
-                libraryName: 'library-hoge',
+                libraryName: 'LibHoge',
             })
         ],
         splitting: false,
