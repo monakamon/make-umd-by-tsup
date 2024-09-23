@@ -2,6 +2,6 @@ export class Hoge {
     private readonly name = 'Hoge';
 
     public sayHello() {
-        console.log(this.name);
+        console.log('say name' + this.name);
     }
 }

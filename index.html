@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <script type="module" src="./libs/hoge/dist/index.umd.js"></script>
+    <script src="./libs/hoge/dist/index.umd.js"></script>
     <script>
         console.log("test");
-        console.log(window.Hoge);
-        console.log("test2");
+        const hoge = new LibHoge.Hoge();
+        hoge.sayHello()
     </script>
 </head>
 <body>
