@@ -1,5 +1,5 @@
 import {defineConfig, Format, Options} from 'tsup';
-import { umdWrapper } from "esbuild-plugin-umd-wrapper";
+import { umdWrapper } from 'esbuild-plugin-umd-wrapper';
 
 const defaultOutExtension: NonNullable<Options["outExtension"]> = ({
     format,
@@ -21,7 +21,6 @@ const defaultOutExtension: NonNullable<Options["outExtension"]> = ({
     }
     return {
         js: jsExtension,
-        dts: dtsExtension
     };
 }
 

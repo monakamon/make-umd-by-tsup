@@ -1,8 +1,9 @@
 {
-  "name": "make-umd-by-tsup",
+  "name": "hoge",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.umd.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsup"
   },
