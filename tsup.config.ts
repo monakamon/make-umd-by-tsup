@@ -34,7 +34,7 @@ export default defineConfig(() => {
             if(params.format as Format === 'umd' as Format) {
                 return {
                     js: '.umd.js',
-                    dts: ".d.ts"
+                    dts: ".d.umd"
                 };
             }
             return defaultOutExtension(params);
