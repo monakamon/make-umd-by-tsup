@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/libs/hoge.ts"],"sourcesContent":["export class Hoge {\n    private readonly name = 'Hoge';\n\n    public sayHello() {\n        console.log('say name' + this.name);\n    }\n}\n"],"mappings":";AAAO,IAAM,OAAN,MAAW;AAAA,EAAX;AACH,SAAiB,OAAO;AAAA;AAAA,EAEjB,WAAW;AACd,YAAQ,IAAI,aAAa,KAAK,IAAI;AAAA,EACtC;AACJ;","names":[]}
